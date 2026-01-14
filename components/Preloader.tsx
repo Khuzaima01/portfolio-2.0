@@ -53,13 +53,31 @@ const Preloader = () => {
             <div className="preloader-item h-full w-[10%] bg-black"></div>
             <div className="preloader-item h-full w-[10%] bg-black"></div>
 
-            <p className="name-text flex text-[20vw] lg:text-[200px] font-anton text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 leading-none overflow-hidden uppercase">
-                {'Khuzaima Akram'.split('').map((char, index) => (
-                    <span
-                        key={index}
-                        className="inline-block translate-y-full whitespace-pre"
-                    >
-                        {char}
+            <p
+                className="
+    name-text
+    absolute top-1/2 left-1/2
+    -translate-x-1/2 -translate-y-1/2
+    flex flex-col lg:flex-row
+    items-center justify-center
+    text-[20vw] lg:text-[200px]
+    font-anton uppercase text-center
+    leading-none overflow-hidden
+  "
+            >
+                {['Khuzaima', 'Akram'].map((word, i) => (
+                    <span key={i} className="flex justify-center">
+                        {word.split('').map((char, j) => (
+                            <span
+                                key={`${i}-${j}`}
+                                className="inline-block translate-y-full whitespace-pre"
+                            >
+                                {char}
+                            </span>
+                        ))}
+                        {i === 0 && (
+                            <span className="hidden lg:inline-block w-[0.25em]" />
+                        )}
                     </span>
                 ))}
             </p>
