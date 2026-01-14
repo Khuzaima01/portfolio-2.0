@@ -229,17 +229,17 @@ export const MY_EXPERIENCE = [
     {
         title: 'Backend Engineer',
         company: 'AutoData Dubai',
-        duration: '2024 - Present',
+        duration: '2025 - Present',
     },
     {
         title: 'Full Stack Developer',
         company: 'DealRevs (AutoData Product)',
-        duration: '2024 - Present',
+        duration: '2025 - Present',
     },
     {
         title: 'Full Stack Developer',
         company: 'Vtechnocrat',
-        duration: '2024 - Present',
+        duration: '2025 - Present',
     },
     {
         title: 'Full Stack Developer',
