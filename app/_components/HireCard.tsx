@@ -82,9 +82,9 @@ const HireCard = () => {
                                 >
                                     <path
                                         fill="var(--icon-color, #026cda)"
-                                        fill-rule="evenodd"
+                                        fillRule="evenodd"
                                         d="M18.37 19.002H5.63v-1.867h12.74v1.867zm.02-3.736H5.608L3 8.314l4.992 1.664L12 5l4.008 4.978L21 8.314l-2.61 6.952z"
-                                        clip-rule="evenodd"
+                                        clipRule="evenodd"
                                     ></path>
                                 </svg>
                                 <span className="text-[12px] font-bold text-white uppercase tracking-wider text-nowrap">
@@ -94,8 +94,8 @@ const HireCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-2 rounded-full bg-white/5 group-hover:bg-[#14a800]/20 transition-colors border border-white/5">
-                    <ExternalLink className="size-4 text-white/50 group-hover:text-[#14a800] transition-colors" />
+                <div className="p-2 rounded-full bg-white/5 group-hover:bg-primary/20 transition-colors border border-white/5">
+                    <ExternalLink className="size-4 text-white/50 group-hover:text-primary transition-colors" />
                 </div>
             </div>
 
@@ -120,7 +120,7 @@ const HireCard = () => {
                         </span>
                     </div>
                 </div>
-                <div className="flex items-center gap-2 text-base font-anton tracking-widest text-white group-hover:text-[#14a800] transition-colors uppercase">
+                <div className="flex items-center gap-2 text-base font-anton tracking-widest text-white group-hover:text-primary transition-colors uppercase">
                     Hire Me
                     <span className="inline-block transition-transform group-hover:translate-x-2 duration-300">
                         →
