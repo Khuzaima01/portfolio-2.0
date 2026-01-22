@@ -73,8 +73,8 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m I’m a Laravel developer with experience
-                                in React, focused on building scalable and
+                                I&apos;m a Laravel developer with experience in
+                                React, focused on building scalable and
                                 high-performing web applications.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
